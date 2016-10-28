@@ -1,0 +1,32 @@
+.navbar-default{
+	background-color: rgba(255, 255, 255, 0.96);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 0px;
+}
+
+.main-panel{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(203, 203, 210, 0.15);
+}
+
+@media (max-width: 991px)
+.sidebar {
+    display: none;
+}
+
+.sidebar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 260px;
+	height: 100%;
+	background-color: rgb(55,71,79);
+	z-index: 1;
+}
+
+.user-info{
+	width: 100%;
+	height: 200px;
+	background-color: rgb(38,50,56);
+}
