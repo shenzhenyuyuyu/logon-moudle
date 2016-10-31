@@ -7,13 +7,15 @@
 
 	<servlet>
 		<servlet-name>login logic</servlet-name>
-		<servlet-class>com.szy.control.Login</servlet-class>
+		<servlet-class>com.szy.control.LoginServlet</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
 		<servlet-name>login logic</servlet-name>
 		<url-pattern>/pages/login.do</url-pattern>
 	</servlet-mapping>
+	
+	
 	
 	
 </web-app>
